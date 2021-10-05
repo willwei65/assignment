@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms Demo</title>
+</head>
+
+
+
+<body>
+    <form action="/server" method="post" target="_blank" name="form1">
+        <label for="username">please enter name: </label>
+       <input type="text" name ="username" placeholder="Enter your name" required/>
+        <br/>
+        <label for="password"> please enter password</label>
+        <input type="password" name ="password"/>
+
+       <label for="age"> please type your age</label>
+       <input type="number" name ="age" value="25" min="20" max="55"/>
+    
+         Gender
+        <input type="radio" name="gender" />Male
+        <input type="radio"name="gender"/>Female
+        <br/>
+        Region Located
+        <input type="radio" name="region located"/>USA
+        <input type="radio" name="region located"/>India
+        <br/>
+        Hobbies
+        <input type="checkbox"name="Hobbies"/> Eating
+        <input type="checkbox"name="Hobbies"/> sleeping
+        <input type="checkbox"name="Hobbies"/> coding
+        <br/>
+        Choose a an attachement <input type ="file"/>
+        <br/>
+    <textarea rows="5" cols="20" name="commens"></textarea>
+        <br/>
+        Month 
+        <select name="Month">
+                <option value=""> </option>
+                <option value=""></option>
+            <option value="One">January</option>
+            <option value="two">Feburary</option>
+            <option value="three">May</option>
+            <option value="four">April</option>
+            <option value="five">May</option>
+            <option value="six">June</option>
+            <option value="seven">July</option>
+            <option value="eight">August</option>
+            <option value="nine">September</option>
+            <option value="ten">October</option>
+            <option value="eleven">November</option>
+            <option value="twelve">December</option>
+
+        </select>
+        Day 
+        <select name="Month"> multiple
+                <option value=""> </option>
+                <option value="1"> One</option>
+                <option value="2"> two</option>
+                <option value="3"> three</option>
+
+        </select>
+
+        <br/>
+        <input type="submit" value="submit"/>
+
+        <input type="reset" value="reset"/>
+
+
+
+
+    
+    
+
+    
+    </form>
+
+
+
+
+
+</body>
+</html>
